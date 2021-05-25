@@ -1,13 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import reportWebVitals from './reportWebVitals'
+import { ThemeProvider } from 'styled-components'
+
+import  Content  from './components/styles/content'
+import  GlobalStyles   from './styles/global'
+import {myTheme} from './styles/theme'
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ThemeProvider theme={myTheme}>
+    <React.Fragment>
+        <GlobalStyles />
+          <Content>
+          <div>yoyo bobo</div>
+          </Content>
+        </React.Fragment>
+      </ThemeProvider>
+      ,
   document.getElementById('root')
 );
 
