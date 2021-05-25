@@ -1,6 +1,10 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
-export const Title = styled.div`
-
+export const Title = styled.h1`
+    ${({ theme }) => css`
+        color: ${theme.colors.white};
+        text-align: center;
+        margin-top: 0;
+    `}
 
 `

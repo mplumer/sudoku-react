@@ -1,7 +1,7 @@
 // my-theme.ts
 import { DefaultTheme } from 'styled-components';
 
-const myTheme: DefaultTheme = {
+const theme: DefaultTheme = {
   borderRadius: '5px',
 
   colors: {
@@ -15,7 +15,7 @@ const myTheme: DefaultTheme = {
 transition: '0.3s',
 };
 
-export { myTheme };
+export { theme };
 
 
     

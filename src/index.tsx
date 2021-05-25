@@ -3,17 +3,21 @@ import ReactDOM from 'react-dom'
 import reportWebVitals from './reportWebVitals'
 import { ThemeProvider } from 'styled-components'
 
-import  Content  from './components/styles/content'
+import  {Card, Content, Title, Grid }  from './components'
 import  GlobalStyles   from './styles/global'
-import {myTheme} from './styles/theme'
+import {theme} from './styles/theme'
+
 
 
 ReactDOM.render(
-  <ThemeProvider theme={myTheme}>
+  <ThemeProvider theme={theme}>
     <React.Fragment>
         <GlobalStyles />
-          <Content>
-          <div>yoyo bobo</div>
+          <Content id="content">
+          <Title id="title">Sudoku</Title>
+          <Card id="card">
+            <Grid />
+          </Card>
           </Content>
         </React.Fragment>
       </ThemeProvider>
