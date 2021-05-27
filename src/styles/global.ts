@@ -1,28 +1,30 @@
 import { createGlobalStyle, css } from 'styled-components'
 
-const GlobalStyle = createGlobalStyle`
-    ${({ theme }) => css`
+export default createGlobalStyle`
+  ${({ theme }) => css`
     html {
-        height: 100%auto;
-        
-        body {
-            display: flex;
-            flex-direction: column;
-            height: 100%auto;
-            margin: 0;
+      height: 100%;
 
-         } #root {
-            background: ${theme.colors.background};
-            color: ${theme.colors.black};
-            display: flex;
-            font-family: sans-serif;
-            height: 100vh;
-            justify-content: center;
-            padding: 15px;
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin: 0;
+
+        #root {
+          background: ${theme.background};
+          background-size: ${theme.backgroundSize};
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          color: ${theme.colors.black};
+          display: flex;
+          font-family: sans-serif;
+          justify-content: center;
+          padding: 15px;
         }
+      }
     }
+  `}
 `
-}   
-`
-
-export default GlobalStyle;

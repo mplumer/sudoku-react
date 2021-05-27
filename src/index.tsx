@@ -1,28 +1,23 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import reportWebVitals from './reportWebVitals'
 import { ThemeProvider } from 'styled-components'
 
-import  {Card, Content, Title, Grid }  from './components'
-import  GlobalStyles   from './styles/global'
-import {theme} from './styles/theme'
-
-
+import { Card, Content, Grid, Title } from './components'
+import { GlobalStyles, theme } from './styles'
 
 ReactDOM.render(
+  <>
   <ThemeProvider theme={theme}>
-    <React.Fragment>
-        <GlobalStyles />
-          <Content id="content">
-          <Title id="title">Sudoku</Title>
-          <Card id="card">
-            <Grid />
-          </Card>
-          </Content>
-        </React.Fragment>
-      </ThemeProvider>
-      ,
+    <GlobalStyles />
+    <Content data-cy="content">
+      <Title data-cy="title">Sudoku</Title>
+      <Card data-cy="card">
+        <Grid />
+      </Card>
+    </Content>
+  </ThemeProvider>
+  </>,
   document.getElementById('root')
-);
+)
 
-reportWebVitals();
+
