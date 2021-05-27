@@ -12,15 +12,11 @@ export default createGlobalStyle`
         margin: 0;
 
         #root {
-          background: ${theme.background};
-          background-size: ${theme.backgroundSize};
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
+          background: ${theme.colors.background};
           color: ${theme.colors.black};
           display: flex;
           font-family: sans-serif;
+          height: 100%;
           justify-content: center;
           padding: 15px;
         }

@@ -6,8 +6,8 @@ export const Content = styled.div`
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  margin-top: 15vh;
-  margin-bottom: 15vh;
+  margin: 20vh 0;
+  padding: 1rem;
   background-size: contain;
   
 `
