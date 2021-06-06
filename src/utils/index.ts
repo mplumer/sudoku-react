@@ -1,2 +1,2 @@
-export { default as fillGrid } from './fill-grid'
-export { default as shuffle } from './fill-grid'
+export { default as FillGrid } from './fill-grid'
+export { default as shuffle } from './shuffle'
