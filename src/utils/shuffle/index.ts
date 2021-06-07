@@ -1,5 +1,5 @@
 /**
- * Array shuffling using the Fisher-Yates shuffle alogrithm
+ * An array shuffling using the Fisher-Yates shuffle alogrithm
  * @param array An array that you want shuffled
  */
 function shuffle(array: any[]) {
