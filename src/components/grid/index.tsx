@@ -3,8 +3,8 @@ import useMousetrap from 'react-hook-mousetrap'
 import { useDispatch, useSelector } from 'react-redux'
 import { AnyAction, Dispatch } from 'redux'
 
-import { createGrid, fillBlock, IReducer, selectBlock } from 'reducers'
-import { INDEX, BLOCK_COORDS, NUMBERS, N } from 'typings'
+import { createGrid, IReducer, selectBlock, fillBlock } from 'reducers'
+import { BLOCK_COORDS, INDEX, N, NUMBERS } from 'typings'
 
 import Block from './block'
 import { Container, Row } from './styles'
@@ -15,11 +15,15 @@ interface IState {
 }
 
 const Grid: FC = () => {
-  const state = useSelector<IReducer, IState>(({ selectedBlock, workingGrid }) => ({
-    selectedBlock,
-    selectedValue: workingGrid && selectedBlock ?
-      workingGrid[selectedBlock[0]][selectedBlock[1]] : 0,
-  }))
+  const state = useSelector<IReducer, IState>(
+    ({ selectedBlock, workingGrid }) => ({
+      selectedBlock,
+      selectedValue:
+        workingGrid && selectedBlock
+          ? workingGrid[selectedBlock[0]][selectedBlock[1]]
+          : 0,
+    })
+  )
   const dispatch = useDispatch<Dispatch<AnyAction>>()
 
   const create = useCallback(() => dispatch(createGrid()), [dispatch])
@@ -29,8 +33,8 @@ const Grid: FC = () => {
       if (state.selectedBlock && state.selectedValue === 0)
         dispatch(fillBlock(n, state.selectedBlock))
     },
-    [dispatch, state.selectedBlock, state.selectedValue])
-
+    [dispatch, state.selectedBlock, state.selectedValue]
+  )
 
   function moveDown() {
     if (state.selectedBlock && state.selectedBlock[0] < 8)
