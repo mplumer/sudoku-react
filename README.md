@@ -4,7 +4,7 @@
 
 <br />
 <p align="center">
-  <a href="https://sudoku-react-app.netlify.app/">
+  <a href="https://max-sudoku.netlify.app/">
     <img src="https://github.com/mplumer/sudoku-react/blob/develop/public/assets/logo192.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -56,13 +56,13 @@
 
 ## About The Project
 
-![App Demo]()
+![App Gif](https://github.com/mplumer/sudoku-react/blob/develop/public/assets/Screen%20Recording%202021-06-16%20at%2010.32.43%20PM.gif)
 
 ![App Screenshot](https://github.com/mplumer/sudoku-react/blob/develop/public/assets/Screen%20Shot%202021-06-16%20at%2010.54.57%20PM.png)
 
 ![PWA Screenshot](https://github.com/mplumer/sudoku-react/blob/develop/public/assets/Screen%20Shot%202021-06-17%20at%201.52.36%20PM.png)
 
-![Link to deployed application](https://sudoku-react-app.netlify.app/)
+![Link to deployed application](https://max-sudoku.netlify.app/)
 
 ### Built With
 
@@ -102,7 +102,7 @@ This is an example of how to list things you need to use the software and how to
    
 OR
 
-Go to ![Link to deployed application](https://max-sudoku.netlify.app/) and press the install button inside thhe address bar. 
+Go to ![Max-Sudoku](https://max-sudoku.netlify.app/) and press the install button inside the address bar. 
 
 <!-- USAGE EXAMPLES -->
 
