@@ -53,7 +53,7 @@
 ## About The Project
 
 <p align="center">
-A mobile-friendly Sudoku with button controls for any device. Download this PWA to your favorite device so you can play even when you're not online. Not enough time to finish your game? No worries! With persistent storage you don't have to worry about losing your progress if you navigate away from the game. If you get tired of your current game, just press the new game button for a fresh board. 
+A mobile-friendly Sudoku game with button controls for any device. Download this PWA to your favorite device so you can play even when you're not online. Not enough time to finish your game? No worries! With persistent storage you don't have to worry about losing your progress if you navigate away from the game. If you get tired of your current game, just press the new game button for a fresh board. 
     <br />
     <br />
     When I decided to pursue this project, I had just recently learned typescript and thought this would be a great way to practice my new found skill. Not only did it provide lots of great typescript experience, it was incredibly logic-heavy and really pushed my limits as a programmer. The experience was difficut, but rewarding...and I'm pretty pleased with how it turned out.
