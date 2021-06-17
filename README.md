@@ -11,10 +11,6 @@
   <h3 align="center">Sudoku React</h3>
 
   <p align="center">
-    A mobile-friendly Sudoku with button controls for any device. Download this PWA to your favorite device so you can play even when you're not online. Not enough time to finish your game? No worries! With persistent storage you don't have to worry about losing your progress if you navigate away from the game. If you get tired of your current game, just press the new game button for a fresh board. 
-    <br />
-    <br />
-    When I decided to pursue this project, I had just recently learned typescript and thought this would be a great way to practice my new found skill. Not only did it provide lots of great typescript experience, it was incredibly logic-heavy and really pushed my limits as a programmer. The experience was difficut, but rewarding...and I'm pretty pleased with how it turned out.
     <a href="https://max-sudoku.netlify.app/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -55,6 +51,13 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+
+<p align="center">
+A mobile-friendly Sudoku with button controls for any device. Download this PWA to your favorite device so you can play even when you're not online. Not enough time to finish your game? No worries! With persistent storage you don't have to worry about losing your progress if you navigate away from the game. If you get tired of your current game, just press the new game button for a fresh board. 
+    <br />
+    <br />
+    When I decided to pursue this project, I had just recently learned typescript and thought this would be a great way to practice my new found skill. Not only did it provide lots of great typescript experience, it was incredibly logic-heavy and really pushed my limits as a programmer. The experience was difficut, but rewarding...and I'm pretty pleased with how it turned out.
+ </p>
 
 ![App Gif](https://github.com/mplumer/sudoku-react/blob/develop/public/assets/Screen%20Recording%202021-06-16%20at%2010.32.43%20PM.gif)
 
