@@ -5,7 +5,7 @@
 <br />
 <p align="center">
   <a href="https://sudoku-react-app.netlify.app/">
-    <img src="" alt="Logo" width="80" height="80">
+    <img src="https://github.com/mplumer/sudoku-react/blob/develop/public/assets/logo192.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Sudoku React</h3>
@@ -58,9 +58,9 @@
 
 ![App Demo]()
 
-![App Screenshot]()
+![App Screenshot](https://github.com/mplumer/sudoku-react/blob/develop/public/assets/Screen%20Shot%202021-06-16%20at%2010.54.57%20PM.png)
 
-![PWA Screenshot]()
+![PWA Screenshot](https://github.com/mplumer/sudoku-react/blob/develop/public/assets/Screen%20Shot%202021-06-17%20at%201.52.36%20PM.png)
 
 ![Link to deployed application](https://sudoku-react-app.netlify.app/)
 
