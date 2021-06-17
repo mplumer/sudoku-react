@@ -5,7 +5,7 @@
 <br />
 <p align="center">
   <a href="https://sudoku-react-app.netlify.app/">
-    <img src="/public/images/logo192.png" alt="Logo" width="80" height="80">
+    <img src="/public/logo192.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Sudoku React</h3>
@@ -55,7 +55,9 @@
 
 ## About The Project
 
-[Disney+ Clone Gif](https://drive.google.com/file/d/15KymT6Rah9MyTHOIB-8L3TH1oxnpdkDm/view?usp=sharing)
+[App Demo](https://drive.google.com/file/d/1aKDmEA-OsJg88jaubjIJRZp_WuEzQDPo/view?usp=sharing)
+
+[App Screenshot](https://drive.google.com/file/d/16__dij4j85dUz4QMloV36J7qOreh8_RU/view?usp=sharing)
 
 [Link to deployed application](https://sudoku-react-app.netlify.app/)
 
