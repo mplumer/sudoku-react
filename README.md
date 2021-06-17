@@ -5,19 +5,20 @@
 <br />
 <p align="center">
   <a href="https://sudoku-react-app.netlify.app/">
-    <img src="/public/logo192.png" alt="Logo" width="80" height="80">
+    <img src="" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Sudoku React</h3>
 
   <p align="center">
-    A mobile-friendly Sudoku game with button controls for any device. Not enough time to finish your game? No worries! With persistent storage you don't have to worry about losing your progress if you navigate away from the game. If you get tired of your current game, just press the new game button for a fresh board. 
+    A mobile-friendly Sudoku with button controls for any device. Download this PWA to your favorite device so you can play even when you're not online. Not enough time to finish your game? No worries! With persistent storage you don't have to worry about losing your progress if you navigate away from the game. If you get tired of your current game, just press the new game button for a fresh board. 
+    <br />
     <br />
     When I decided to pursue this project, I had just recently learned typescript and thought this would be a great way to practice my new found skill. Not only did it provide lots of great typescript experience, it was incredibly logic-heavy and really pushed my limits as a programmer. The experience was difficut, but rewarding...and I'm pretty pleased with how it turned out.
     <a href="https://sudoku-react-app.netlify.app/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://not-disney-plus.web.app/">View Demo</a>
+    <a href="https:/sudoku-react-app.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/mplumer/sudoku-react/issues">Report Bug</a>
     ·
@@ -55,11 +56,13 @@
 
 ## About The Project
 
-[App Demo](https://drive.google.com/file/d/1aKDmEA-OsJg88jaubjIJRZp_WuEzQDPo/view?usp=sharing)
+![App Demo]()
 
-[App Screenshot](https://drive.google.com/file/d/16__dij4j85dUz4QMloV36J7qOreh8_RU/view?usp=sharing)
+![App Screenshot]()
 
-[Link to deployed application](https://sudoku-react-app.netlify.app/)
+![PWA Screenshot]()
+
+![Link to deployed application](https://sudoku-react-app.netlify.app/)
 
 ### Built With
 
