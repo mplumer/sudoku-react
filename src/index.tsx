@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react'
 import { ThemeProvider } from 'styled-components'
-
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import { Card, Content, Grid, NewButton, Numbers, Title } from 'components'
-import { configureStore, register } from 'core'
+import { configureStore } from 'core'
 import { GlobalStyles, theme } from 'styles'
 
 const { persistor, store } = configureStore()
@@ -29,4 +29,4 @@ ReactDOM.render(
   document.getElementById('root')
 )
 
-register()
+serviceWorkerRegistration.unregister();
