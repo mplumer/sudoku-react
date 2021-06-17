@@ -15,10 +15,10 @@
     <br />
     <br />
     When I decided to pursue this project, I had just recently learned typescript and thought this would be a great way to practice my new found skill. Not only did it provide lots of great typescript experience, it was incredibly logic-heavy and really pushed my limits as a programmer. The experience was difficut, but rewarding...and I'm pretty pleased with how it turned out.
-    <a href="https://sudoku-react-app.netlify.app/"><strong>Explore the docs »</strong></a>
+    <a href="https://max-sudoku.netlify.app/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https:/sudoku-react-app.netlify.app/">View Demo</a>
+    <a href="https:/max-sudoku.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/mplumer/sudoku-react/issues">Report Bug</a>
     ·
@@ -99,6 +99,10 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
+   
+OR
+
+Go to ![Link to deployed application](https://max-sudoku.netlify.app/) and press the install button inside thhe address bar. 
 
 <!-- USAGE EXAMPLES -->
 
